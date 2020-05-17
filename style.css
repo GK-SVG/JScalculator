@@ -17,7 +17,7 @@ body{
     top: 20px;
     position: relative;
     border-radius: 5px;
-    box-shadow: 1px 3px 4px 1px rgb(223, 185, 36);
+    box-shadow: 2px 3px 3px 2px rgb(223, 185, 36);
 }
 
 #result{
