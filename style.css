@@ -1,0 +1,86 @@
+body{
+ font-family: 'Open Sans',sans-serif;
+ background-color: black;   
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    background-image: url(https://www.nasa.gov/specials/60counting/img/birthofstars.jpg);
+    margin: 20px auto;
+}
+#calculate{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(202, 201, 194);
+    margin-left: 350px;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 3px 4px 1px rgb(223, 185, 36);
+}
+
+#result{
+    height: 120px;
+
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(65, 53, 53);
+}
+#op{
+    text-align: right;
+    font-size: 25px;
+    height: 50px;
+    margin: 10px 20px;
+}
+#keys{
+    height: 400px;
+}
+.operator,.number,.empty{
+    width: 55px;
+    height: 45px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.number,.operator{
+    cursor: pointer;
+}
+.number,.empty{
+    background-color: rgb(202, 201, 194);
+}
+.operator:active,.number:active{
+    font-size: 12px;
+}
+.operator:focus,.number:focus,.empty:focus{
+    outline: 0px;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: rgb(76, 130, 230);
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: rgb(230, 125, 76);
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: rgb(181, 76, 230);
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: rgb(230, 227, 76);
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: rgb(76, 230, 84);
+}
