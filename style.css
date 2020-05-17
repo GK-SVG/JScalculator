@@ -1,12 +1,12 @@
 body{
  font-family: 'Open Sans',sans-serif;
- background-color: black;   
+ background-image: url(https://www.nasa.gov/specials/60counting/img/birthofstars.jpg); 
 }
 
 #container{
     width: 1000px;
     height: 550px;
-    background-image: url(https://www.nasa.gov/specials/60counting/img/birthofstars.jpg);
+    
     margin: 20px auto;
 }
 #calculate{
